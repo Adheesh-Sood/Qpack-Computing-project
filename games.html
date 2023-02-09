@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Games</title>
+</head>
+<body>
+   <h1 class="head">Games</h1>
+   <center>
+    <div class="games">
+        <div class="flappybird">
+            <h1 class="text">Flappy Bird</h1>
+            <div class="btndiv">
+            <button id="goflappy">PLAY</button>
+            </div>
+            <br>
+        </div>
+
+        <br>
+        <br>
+        <div class="flappybird">
+            <h1 class="text"> Penalty Shooters 2</h1>
+            <div class="btndiv">
+                <button id="goPenalty">PLAY</button>
+            </div>
+            <br>
+        </div>
+
+
+
+
+    </div>
+   </center>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+        .head{
+            color: #1D66FF;
+            font-family: 'Shalimar', cursive;
+            font-size: 116px;
+            text-align: center;
+
+
+        }
+        body{
+            background:#151515;
+        }
+        .text{
+            color:#1D66FF;
+            font-family:cursive;
+            font-weight:bold;
+            font-style: italic;
+        }
+        .flappybird{
+            width:500px;
+            border: 2px solid #1D66FF;
+            border-radius: 4px;
+        }
+        #goflappy , button{
+            background:transparent;
+            color:#1D66FF;
+            border: 1px solid #1D66FF;
+            font-family:monospace;
+            border-radius:6px;
+            font-size:22px;
+            cursor: pointer;
+        }
+        .btndiv{
+            padding-bottom: 5px;
+        }
+    </style>
+   <script>
+       document.getElementById('goPenalty').addEventListener('click' , ()=>{
+           window.location.href='penalty shooters.html'
+       })
+
+       document.getElementById('goflappy').addEventListener('click'  , ()=>{
+           window.location.href='flappybird.html'
+       })
+   </script>
+</body>
+</html>

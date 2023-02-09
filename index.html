@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta charset="UTF-8">
+    <title>welcome</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body style="background:#151515">
+
+    <div class="centerNav">
+        <br>
+        <nav class="navbar" style="background-color: #151515; width: 85%; border-radius:16px; border:2px solid #1D66FF;">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" style="text-align: center;" href="#">
+                    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                    <lord-icon src="https://cdn.lordicon.com/kxoxiwrf.json" trigger="hover" colors="primary:#ffd369,secondary:#242424" style="width:100px;height:70px">
+                    </lord-icon>
+
+
+                </a>
+
+                <a class="navbar-brand" style="text-align: center;" href="#">
+                    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                    <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="hover" colors="primary:#ffd369,secondary:#ffd369" style="width:100px;height:70px">
+                    </lord-icon>
+
+
+
+                </a>
+                <a class="navbar-brand" style="text-align: center;" href="#">
+                    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                    <lord-icon src="https://cdn.lordicon.com/coowbsor.json" trigger="hover" colors="outline:#ffd369,primary:#ffd369,secondary:#242424,tertiary:#ebe6ef" style="width:100px;height:70px">
+                    </lord-icon>
+
+
+
+                </a>
+
+
+            </div>
+
+
+        </nav>
+    </div>
+    <div style="text-align: center;">
+        <h1 class="welcome">Welcome User</h1>
+    </div>
+
+    <div class="list">
+        <h1>Games We have </h1>
+        <ul>
+            <li>Flappy Bird</li>
+            <li>Penalty Shooters </li>
+        </ul>
+    </div>
+    <center>
+    <div id="signupDiv">
+        <h1 id="sText">
+            Signup
+        </h1>
+
+        <div class="textFields">
+            <label for="name"><script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon
+                        src="https://cdn.lordicon.com/dykrlspk.json"
+                        trigger="hover"
+                        colors="outline:#1D66FF,primary:#1D66FF,secondary:#242424"
+                        style="width:70px;height:60px">
+                </lord-icon></label><input type="text" class="inp" id="name" placeholder="username">
+            <br>
+            <br>
+            <label for="email"><script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon
+                        src="https://cdn.lordicon.com/tkgyrmwc.json"
+                        trigger="hover"
+                        colors="primary:#1D66FF,secondary:#242424"
+                        style="width:70px;height:60px">
+                </lord-icon></label><input type="email" class="inp" id="email" placeholder="email">
+            <br>
+            <br>
+            <label for="pass">
+                <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon
+                        src="https://cdn.lordicon.com/tvfhipxl.json"
+                        trigger="hover"
+                        colors="outline:#1D66FF,primary:#242424"
+                        style="width:70px;height:60px">
+                </lord-icon>
+
+            </label><input type="password" class="inp" id="pass" placeholder="password">
+
+            <br>
+            <br>
+            <br>
+            <center><button id="go" class="btnGo">GO</button>
+
+                <button id="google"><img src='https://www.salesforceben.com/wp-content/uploads/2021/03/google-logo-icon-PNG-Transparent-Background-2048x2048.png' alt=""></button>
+
+            </center>
+
+
+            <br>
+            <div id="showId" style='display:none'>
+                <h1 id="showText"></h1>
+                <br>
+
+                <center><button id="goShow">I understand</button></center>
+
+            </div>
+            <br>
+            <br>
+            <center><a href="Login.html" class="logText">Already have an account?Login</a></center>
+
+
+
+
+        </div>
+        <br>
+        <br>
+    </div>
+</center>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+        body {
+            background-color: #222831;
+        }
+
+        .welcome {
+            color: #1D66FF;
+            font-family: 'Shalimar', cursive;
+            font-size: 116px;
+        }
+
+        .input-group mb-3 {
+            width: 90px;
+        }
+
+        .signupText {
+            width: 190px;
+        }
+
+        .centerSignup {
+            display: grid;
+            place-items: center;
+        }
+
+        .signupText {
+            color: aquamarine;
+        }
+        .centerNav{
+            display:grid;
+            place-items: center;
+            padding-top:50px;
+        }
+        .headText{
+            text-align: center;
+            color: #1D66FF;
+
+        }
+        #signupDiv{
+            border:2px solid #1D66FF;
+            width:40%;
+            border-radius: 12px;
+            padding-left:40px; ;
+        }
+        #sText{
+            color:#1D66FF;
+            text-align: center;
+            font-family: 'Poor Story', cursive;
+            font-style: italic;
+        }
+        .inp{
+            border: 1px solid #1D66FF;
+            border-radius: 12px;
+            background: transparent;
+            color: #1D66FF;
+            font-size:21px;
+            font-family: cursive;
+        }
+        .material-symbols-outlined{
+            width: 70px;
+            height: 60px;
+        }
+
+        .btnGo{
+            transition:ease-out 1s;
+            font-weight: bold;
+            width:30%;
+            border-radius: 18px;
+            background: transparent;
+            border:1px solid #1D66FF;
+            color: #1D66FF;
+        }
+        .btnGo:hover{
+            background:#1D66FF;
+            color:#fff;
+            font-weight:bold;
+            transition:ease-in 1s;
+        }
+        .logText{
+            color:#1D66FF;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .logText:hover{
+            color:#1D66FF;
+        }
+        #google{
+            background-color:#151515;
+            height:130px;
+            width:130px;
+            border:none;
+
+
+
+        }
+        img{
+            transition:2s ease-in-out;
+            width:50px;
+            height:50px;
+        }
+
+
+        img:hover{
+            transition:2s ease-in-out;
+            rotate: 30deg;
+        }
+        #showText{
+            font-size:18px;
+            color:#1D66FF;
+            font-family: cursive;
+            font-weight: bold;
+        }
+        #goShow{
+            width:30%;
+            border-radius: 18px;
+            background: transparent;
+            border:1px solid #1D66FF;
+            color: #1D66FF;
+
+        }
+        #showId{
+            border-radius:12px;
+        }
+        .admin{
+            transition:ease-out 1s;
+            font-weight: bold;
+            width:30%;
+            border-radius: 18px;
+            background: transparent;
+            border:1px solid #1D66FF;
+            color: #1D66FF;
+        }
+        ul{
+            color:#FFF;
+            font-family:cursive;
+        }
+        .list{
+            width:400px;
+            border-radius:8px;
+            border: 2px solid #1D66FF;
+            display:grid;
+        }
+        h1{
+            color:#1D66FF;
+        }
+    </style>
+
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script >
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js";
+        import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-database.js";
+
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyBRf8lnDbDytYgXbw3_8gn17UsDRxEWty4",
+            authDomain: "qpack-9c1f6.firebaseapp.com",
+            databaseURL: "https://qpack-9c1f6-default-rtdb.firebaseio.com",
+            projectId: "qpack-9c1f6",
+            storageBucket: "qpack-9c1f6.appspot.com",
+            messagingSenderId: "712118888330",
+            appId: "1:712118888330:web:d718fb93c08fd0e4cbca73",
+            measurementId: "G-HD8KDMR1QT"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth();
+        const provider = new GoogleAuthProvider();
+        const database = getDatabase();
+        let id = ''
+        let idRec = ''
+        const db = getDatabase();
+        const go_12 = document.getElementById('goShow')
+        let btn_go = document.getElementById('go')
+        let email = document.getElementById('email')
+        let pass = document.getElementById('pass')
+        let name = document.getElementById('name')
+        let test = document.getElementById('test')
+        let google = document.getElementById('google')
+        let sDiv = document.getElementById('showId')
+        let sText = document.getElementById('showText')
+        let sBtn = document.getElementById('goShow')
+        let admin = document.getElementById('admin')
+        btn_go.addEventListener('click' , ()=>{
+            console.log("click")
+            createUserWithEmailAndPassword(auth, email.value, pass.value)
+                .then((userCredential) => {
+                    // Signed in
+                    const user = userCredential.user;
+                    if(user){
+                        let uid = user.uid;
+                        let idRec = uid[1] + uid[2] + uid[3] + uid[4]
+                        const postListRef = ref(db, 'user/' + idRec);
+                        const newPostRef = (postListRef);
+                        set(newPostRef, {
+                            mail:email.value,
+                            name:name.value,
+                            password:pass.value,
+                            type:'email , password'
+                            // ...
+                        });
+
+
+                        sText.textContent ='your id is {' + idRec + '} this will be used all across the website and to access your account'
+                        sDiv.style.display=''
+
+
+                    }
+                    // ...
+                })
+                .catch((error) => {
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    console.log(errorMessage)
+                    // ..
+                });
+        })
+
+        google.addEventListener('click' , ()=>{
+            console.log('click google')
+            signInWithPopup(auth, provider)
+                .then((result) => {
+                    // This gives you a Google Access Token. You can use it to access the Google API.
+                    const credential = GoogleAuthProvider.credentialFromResult(result);
+                    const token = credential.accessToken;
+                    // The signed-in user info.
+                    const user = result.user;
+                    if(user){
+                        let uid = user.uid;
+                        idRec = uid[1] + uid[2] + uid[3] + uid[4]
+                        console.log(user)
+                        const postListRef = ref(db, 'user/' + idRec);
+                        const newPostRef = (postListRef);
+                        set(newPostRef, {
+                            mail:user.email,
+                            name:user.displayName,
+                            type:'google'
+                            // ...
+                        });
+                        sText.textContent ='your id is {' + idRec + '} this will be used all across the website and to access your account'
+                        sDiv.style.display=''
+
+
+
+                    }
+
+                    // ...
+                }).catch((error) => {
+                // Handle Errors here.
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // The email of the user's account used.
+                const email = error.customData.email;
+                // The AuthCredential type that was used.
+                const credential = GoogleAuthProvider.credentialFromError(error);
+                // ...
+            });
+
+        })
+        sBtn.addEventListener('click' , ()=>{
+
+            window.location.href='http://localhost:63342/Qpack/modules/images/games.html?_ijt=qh3po5biel2mcd44srsmumt81u&_ij_reload=RELOAD_ON_SAVE'
+
+        })
+    </script>
+
+</body>
+
+</html>
